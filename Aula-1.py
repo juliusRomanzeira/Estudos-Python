@@ -10,7 +10,7 @@ import numpy as np
 aux = 0
 nome = []
 while True:
-    nome.insert[aux] = input()
+    nome.insert(aux, input())
     if nome[aux] == '\n':
         break
 string = [nome]
