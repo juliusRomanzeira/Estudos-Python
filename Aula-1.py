@@ -6,11 +6,13 @@
 #
 # - Quantas letras tem o primeiro nome.
 #
-from unicodedata import name
-
-
+import numpy as np
 aux = 0
-nome = input("\n\nDigite seu nome completo: ")
+nome = []
+while True:
+    nome.insert[aux] = input()
+    if nome[aux] == '\n':
+        break
 string = [nome]
 tam = []
 print("\nNome em caixa alta --> {}\nNome em minúsculas --> {}".format(nome.upper(),nome.lower()))
