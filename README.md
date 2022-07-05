@@ -1,2 +1,2 @@
-# Estudos-Python
+# Estudos Python
  Repositório criado para estudos em Python...
