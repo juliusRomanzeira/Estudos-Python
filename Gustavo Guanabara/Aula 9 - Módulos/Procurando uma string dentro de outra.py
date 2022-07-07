@@ -5,3 +5,7 @@ for i in range(0, len(nome.split())):
         Resposta = 'True'
         break
 print("Seu nome tem Silva? {}".format(Resposta))
+
+# Uma outra forma:
+# nome = input("Qual seu nome completo? ").strip()
+# print("Seu nome tem Silva? {}".format('silva' in nome.lower()))
