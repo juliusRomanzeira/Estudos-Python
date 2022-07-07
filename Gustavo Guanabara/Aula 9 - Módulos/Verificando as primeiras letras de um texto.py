@@ -9,9 +9,6 @@ if nome == 'santo':
 else:
     print(False)
 
-cidade = input("Em que cidade você nasceu? ").strip()
-print(cidade[:5].upper()=='SANTO')
 # Uma outra maneira:
 # cidade = input("Em que cidade você nasceu? ").strip()
 # print(cidade[:5].upper()=='SANTO')
-# 
